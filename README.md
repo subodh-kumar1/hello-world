@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 [edit index.html](https://github.com/subodh-kumar1/hello-world/edit/master/index.html)
-[edit index2.html](https://github.com/subodh-kumar1/hello-world/edit/master/index.html)
+[edit index2.html](https://github.com/subodh-kumar1/hello-world/edit/master/index2.html)
 
 You can use the [editor on GitHub](https://github.com/subodh-kumar1/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
