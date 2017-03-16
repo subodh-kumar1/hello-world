@@ -19,18 +19,23 @@
                         },
                         'I am Subodh': function() {
                             document.getElementById("disp1").innerHTML="I am good";
+                            responsiveVoice.speak("I am good");
                         },
                         'I am Mark': function() {
                             document.getElementById("disp2").innerHTML="Hi! Mark, how u doin";
+                            responsiveVoice.speak("Hi mark, how u doing");
                         },
-                        'Can u please take me to google': function() {
+                        'Can you please take me to google': function() {
                             document.getElementById("disp3").innerHTML="Yes ofcourse <a href='google.com'> Click Here </a>";
+                            responsiveVoice.speak("Yes Ofcourse");
                         },
                         'How are you': function() {
                             document.getElementById("disp4").innerHTML="I am good";
+                            responsiveVoice.speak("I am good");
                         },
-                        'Who Made You' : function(){
+                        'Who created You' : function(){
                             document.getElementById("disp5").innerHTML="Subodh Kumar";
+                            responsiveVoice.speak("Subodh Kumar");
                         }
                     };
                     annyang.addCommands(commands);
