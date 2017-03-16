@@ -8,12 +8,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome to Spring Web MVC project</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+        <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
         <script>
             window.onload = function(){
                 if (annyang) {
                     var commands = {
                         'Hello': function() {
                             document.getElementById("disp").innerHTML="Hello! dear";
+                            responsiveVoice.speak("Hello Dear");
                         },
                         'I am Subodh': function() {
                             document.getElementById("disp1").innerHTML="I am good";
